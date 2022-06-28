@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>
+        CV
+    </title>
+</head>
+
+<body>
+
+    <body bgcolor="#DDD3C9">
+        <center>
+            <b>
+                <h1>
+                    <u>
+                        Curriculum Vitae
+                    </u>
+                </h1>
+            </b>
+        </center>
+        <div>
+            <img src="C:\Users\omg\OneDrive\Documents\Programs\HTML\Heem.jpg" height="250" width="250" align="right">
+        </div>
+        <table border="1">
+            <tr>
+                <td>
+                    <h2 align="center">
+                        <b>
+                            GREETINGS !
+                        </b>
+                    </h2>
+                    <p>
+                        <font size="5">
+                            <b>Name:</b>
+                            <i>Heemakshi Sharma</i><br><br>
+                            <b>Email ID:</b>
+                            <i>HeemakshiSharma03@gmail.com</i><br><br>
+                            <b>Contact No. :</b>
+                            <i> +91 7625960951, </i>
+                            <i> +91 9818128007</i><br><br>
+                            <b>Address:</b>
+                            <i> AB-102, Antriksh Heights<br>
+                                Sector-84, Gurugram <br>
+                                Haryana</i>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <hr size="2" color="black">
+        <center>
+            <u>
+                <h2>Carrier Objectives
+            </u></h2>
+        </center>
+        <p>
+            <font size="5">
+                Hey, I'm Currently a student pursuing my B.Tech in CSE so looking forward to work in a Product-Based
+                Company
+                in the near future.
+        </p>
+        </font>
+        <hr width="100%" size="1" color="black">
+        <center>
+            <h2><u>Skill Set</u></h2>
+        </center>
+        <p>
+            <font size="5">
+                <ul type="circle">
+                    <li>
+                        I've proficiency in Programming Languages C and C++. I've worked on different projects using
+                        these
+                        languages.
+                    </li><br>
+                    <li>
+                        I've an experience of working with different Operating systems like Linux, Unix and Windows (as
+                        major).
+                    </li><br>
+                    <li>
+                        I've the basic knowledge and worked with programming language Python also.
+                    </li><br>
+                    <li>
+                        I've the experience of working with different languages like SQL, HTML,Prolog as well.
+                    </li><br>
+                    <li>
+                        I'm familiar with the Artificial Intelligence and Computer Networks.
+                    </li><br>
+                    <li>
+                        I've built projects using HTML, Wordpress, C, C++.
+                    </li><br>
+                    <li>
+                        I've the basic knowledge of Computer Forensics and Cyber Security, Ethical Hacking and had
+                        participated
+                        in Coding Hackathon - Code Jam to I/O for Women.
+                    </li><br>
+                </ul>
+        </p>
+        <hr width="100%" size="1" color="black">
+        <center>
+            <h2><u>Academic Record</u></h2>
+        </center>
+        <table align="center" border="1" cellpadding="3" cellspacing="2">
+            <tr>
+                <th>
+                    S. No.
+                </th>
+                <th>
+                    Stage
+                </th>
+                <th>
+                    Institute
+                </th>
+                <th>
+                    Percentage
+                </th>
+            </tr>
+            <tr>
+                <td align="center">
+                    1.
+                </td>
+                <td align="center">
+                    Class 10
+                </td>
+                <td>
+                    Army Public School, Dhaula Kuan
+                </td>
+                <td align="center">
+                    90%
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    2.
+                </td>
+                <td align="center">
+                    Class 12
+                </td>
+                <td>
+                    Army Public School, Dhaula Kuan
+                </td>
+                <td align="center">
+                    80%
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    3.
+                </td>
+                <td>
+                    Semester 1
+                </td>
+                <td>
+                    Amity University, Haryana
+                </td>
+                <td align="center">
+                    8.56
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    4.
+                </td>
+                <td>
+                    Semester 2
+                </td>
+                <td>
+                    Amity University, Haryana
+                </td>
+                <td align="center">
+                    8.54
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    5.
+                </td>
+                <td>
+                    Semester 3
+                </td>
+                <td>
+                    Amity University, Haryana
+                </td>
+                <td align="center">
+                    8.24
+                </td>
+            </tr>
+        </table><br>
+        <hr width="100%" size="1" color="black">
+        <center>
+            <h2><u>Hobbies and Achievements</u></h2>
+        </center>
+        <ul type="circle">
+            <font size="5">
+                <h4>
+                    Hobbies :
+                </h4>
+                <li>
+                    Reading Books
+                </li><br>
+                <li>
+                    Playing Sports majorly Badminton
+                </li><br>
+                <li>
+                    Painting
+                </li>
+        </ul>
+        <ul type="circle">
+            <font size="5">
+                <h4>
+                    Achievements:
+                </h4>
+                <li>
+                    I'd been offered marketing internship by K2-Box company and Social Media Marketing Internship by
+                    ShareTM.
+                </li><br>
+                <li>
+                    I'd been selected for HCL TSS Student Techbee Program.
+                </li><br>
+                <li>
+                    Had played a major role in the School Badminton Team
+                </li><br>
+        </ul>
+        <hr width="100%" size="1" color="black">
+        <h2>
+            Declaration :
+        </h2>
+        <p>
+            <font size="5">
+                I hereby declare that all the above information is latest and true to my knowledge. <br><br>
+                <b>Name:</b> Heemakshi Sharma<br>
+                <b>Date:</b> February 28<sup>th</sup>2022
+        </p>
+        <marquee><b>Thank You !</b></marquee>
+        <hr size="2" color="black">
+    </body>
+
+</html>
