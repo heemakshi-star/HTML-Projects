@@ -1,0 +1,287 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>
+        HTML Project
+    </title>
+</head>
+
+<body>
+    <table id="header" border="1" width="100%" cellpadding="0" cellspacing="0" bgcolor="orange">
+        <tr>
+            <td>
+                <table>
+                    <table border="1" cellpadding="15" cellspacing="0" align="center">
+                        <tr>
+                            <td>
+                                <a href="#Home">
+                                    <font face="Times new roman color" color="black" size="5">Home</font>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#About">
+                                    <font face="Times new roman color" color="black" size="5">About</font>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#Qualifications">
+                                    <font face="Times new roman color" color="black" size="5">Qualifications</font>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#Skills">
+                                    <font face="Times new roman color" color="black" size="5">Skills</font>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#Contact">
+                                    <font face="Times new roman color" color="black" size="5">Contact</font>
+                                </a>
+                            </td>
+                    </table>
+            </td>
+        </tr>
+    </table>
+    </td>
+    </tr>
+    </table>
+
+    <table id="home" border="1" width="100%" cellpadding="0" cellspacing="0" bgcolor="black">
+        <tr>
+            <td>
+                <font face="Times new roman" color="white" size="5">
+                    <marquee>
+                        <h2>Welcome ! </h2>
+                    </marquee>
+                </font>
+                <table border="0" width="100%" cellpadding="15" cellspacing="0" align="Home">
+                    <tr>
+                        <td align="center">
+                            <font face="Times New Roman" color="orange" size="3">
+                                <h1>Hey, This is Heemakshi Sharma </h1>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <table id="about" border="1" width="100%" cellspacing="0" cellpadding="0" bgcolor="black">
+        <tr>
+            <td>
+                <table border="1" width="85%" cellpadding="15" cellspacing="0" align="center" <td>
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="2">
+                            <font align="center" face="Times new roman" color="orange" size="4">
+                                <h2>
+                                    About Me
+                                    <hr width="120" color="orange">
+                                </h2>
+                            </font>
+                        </td>
+                    </tr>
+            </td>
+        <tr>
+            <td width="40%" align="center">
+                <img src="Heem.jpg" alt="Heemakshi Sharma" width="80%" </tr>
+            <td width="48%">
+                <font align="center" face="Times new roman" color="white" size="4">
+                    <p>
+                    <h2>GREETINGS !</h2><br>
+                    "Always be yourself. At the end of the day, that's all you've really got; when you strip yourself
+                    down, that's all you've got, so be yourself" <br>
+                    --Al Roker<br><br>
+                    So, these are some of the few lines which motivates me now and always. Always look forward to create
+                    a better version of your ownself because at the end of the day, that is all what matters ! So,
+                    starting with this I'd like to brief you a little about myself...<br><br>
+                    Well, My name is Heemakshi Sharma and I'm basically from Jalandhar, Punjab but currently residing in
+                    Gurugram, Haryana. I come from a nuclear family where my father is a working professional and my
+                    mother is a good homemaker. I'm currently a 2nd year Engineering Student, with a major in Computer
+                    Science and Minor in Computer forensics and Cyber Security.
+                    I'm a Passionate Programmer. <br> <br>For now that's all about my ownself in this section ! <br>
+                    <h2>THANK YOU ! </h2>
+                    </p>
+                </font>
+            </td>
+            </td>
+        </tr>
+        </td>
+        </tr>
+    </table>
+
+    <table id="Qualifications" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                    <tr>
+                        <td height="10" align="center" valign="middle" colspan="3">
+                            <font face="Times new roman" color="#292929" size="4">
+                                <h2>Qualifications</h2>
+                            </font>
+                            <hr width="150" color="#292929" </td>
+                    </tr>
+                    <tr>
+                        <td width="60%">
+                            <font face="Times New Roman" color="purple" size="4">
+                                <ul="bold">
+                                    <h3>
+                                        <ul>
+                                            <li> I completed my 10th (with decent percentage and was awarded with the
+                                                Scholar's badge) in 2018 and 12th (with Science and mathematics as
+                                                major) from Army Public School, Dhaula Kuan, New Delhi in 2020.</li>
+                                            <br><br>
+                                            <li>Currently I'm a Computer Science Engineering student at Amity
+                                                University, Haryana.<br><br>
+                                            <li>I'm in my 2nd Year (4th Semester) right now after successful completion
+                                                of 3 semesters with a decent cgpa of 8.54/10 in my 1st Year and being in
+                                                the top 3 of the class always.</li><br><br>
+                                            <li>I'd been offered marketing internship by K2-Box company and Social Media
+                                                Marketing Internship by ShareTM.</li><br><br>
+                                            <li>I'd been selected for HCL TSS Student Techbee Program. </li><br><br>
+                                        </ul>
+                                    </h3>
+                                    </ul>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <table id="Skills" border="0" width="100%" cellspacing="0" cellpadding="0" bgcolor="#353535">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="3">
+                            <font face="Times  new roman" color="#f3971b" size="5">
+                                <h2>
+                                    Skills
+                                </h2>
+                            </font>
+                            <hr width="100" color="#f3971b" </td>
+                    </tr>
+                    <tr>
+                        <td width="33%" valign="top">
+                            <font face="Times new roman" color="#c2c0c3">
+                                <h3>
+                                    <u"bold">
+                                        <li>I've proficiency in Programming Languages C and C++. I've worked on
+                                            different projects using these languages.</li> <br><br>
+                                        <li> I've an experience of working with different Operating systems like Linux,
+                                            Unix and Windows (as major).</li><br><br>
+                                        <li>I've the basic knowledge and worked with programming language Python also.
+                                        </li><br><br>
+                                        <li>I've the experience of working with different languages like SQL, HTML,
+                                            Prolog as well.</li><br><br>
+                                        <li>I'm familiar with the Artificial Intelligence and Computer Networks.</li>
+                                        <br><br>
+                                        <li>I've built projects using HTML, Wordpress, C, CPP.</li><br><br>
+                                        <li> I've the basic knowledge of Computer Forensics and Cyber Security, Ethical
+                                            Hacking and have participated in Coding Hackathon - Code Jam to I/O for
+                                            Women. </li><br><br>
+                                        </ul>
+                                </h3>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <table id="contact" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="orange">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center" bgcolor="white">
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="1">
+                            <font face="Times new  roman" color="Black" size="4">
+                                <h2>Contact</h2>
+                            </font>
+                            <hr width="100" color="black">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="top">
+                            <table border="0" width="50%" cellspacing="0" cellpadding="15" align="center"
+                                bgcolor="black">
+                                <tr>
+                                    <td width="30%">
+                                        <font face="times new roman" size="4" color="white">
+                                            <h3>Name </h3>
+                                        </font>
+                                    </td>
+                                    <td width="70%">
+                                        <font face="Times new  roman" size="4" color="black">
+                                            <input type="text" size="40">
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="30%">
+                                        <font face="Times new roman" size="4" color="white">
+                                            <h3>Email</h3>
+                                        </font>
+                                    </td>
+                                    <td width="70%">
+                                        <font face="times new roman" size="4" color="black">
+                                            <input type="text" size="40">
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="30%">
+                                        <font face="times new roman" size="4" color="white">
+                                            <h3> Message </h3>
+                                        </font>
+                                    </td>
+                                    <td width="70%">
+                                        <font face="times new roman" size="4" color="black">
+                                            <textarea rows="5" cols="42">
+                                            </textarea>
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="30%">
+                                        &nbsp;
+                                    </td>
+                                    <td width="70%">
+                                        <button type="Submit">
+                                            <font face="times new roman" size="4" color=" black">
+                                                Submit
+                                            </font>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <font face="Times new roman" color="white" align="center">
+
+        <h2>You can contact me via :</h2>
+    </font>
+
+    <font face="times new roman" color="white" size="5">
+        <ul>
+            <li>E-mail Address : HeemakshiSharma03@gmail.com<br><br></li>
+            <li>Contact Number : +91-7625960951</li>
+        </ul>
+    </font>
+</body>
+
+</html>
