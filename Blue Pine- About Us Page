@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Us - BLUE PINE</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="intern.css/">
+    <style>
+        div {
+            height: 650px;
+            width: 80%;
+            left: 130px;
+            border: 3px solid white;
+            position: relative;
+            background-color: white;
+        }
+
+        h2,
+        img {
+            line-height: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body bgcolor="#C0C0C0">
+    <div>
+        <img src="C:\Users\omg\OneDrive\Documents\Programs\HTML\logo.jpg" width="180" height="140"
+            align="left"></img><br>
+        <font SIZE="10" face="ARIAL">
+            <h2 style="text-align:right;"><b>BLUE PINE</b></h2>
+        </font>
+        <table id="header" border="1" width="100%" cellpadding="0" cellspacing="0" bgcolor="black">
+            <tr>
+                <td>
+                    <table>
+                        <table border="1" width="100%" cellpadding="15" cellspacing="0" align="center">
+                            <tr align="center">
+                                <td>
+                                    <a href="internship.html" target="blank">
+                                        <font face="Times new roman" color="white" size="4">Home</font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Economy.html" target="blank">
+                                        <font face="Times new roman color" color="white" size="4">Economy</font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Finance.html" target="blank">
+                                        <font face="Times new roman color" color="white" size="4">Finance</font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Industry.html" target="blank">
+                                        <font face="Times new roman color" color="white" size="4">Industry</font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Technology.html" target="blank">
+                                        <font face="Times new roman color" color="white" size="4">Technology</font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Crypto.html" target="blank">
+                                        <font face="Times new roman color" color="white" size="4">Crypto</font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="More.html" target="blank">
+                                        <font face="Times new roman color" color="white" size="4">More</font>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <center>
+            <img src="C:\Users\omg\OneDrive\Documents\Programs\HTML\digital.jpg" width="550" height="450"
+                align="right"></img><br><br><br><br>
+        </center>
+        <font face="arial" align="left" size="9"><b>YOU NEED <font color="#DO3D56" align="center" face="arial">
+                    <b>LEADS...</b></font></b></font><br><br><br>
+        <font face="verdana" text-align="center" size="4">WE CREATE UNIQUE, ENGAGING VIDEOS <br><br>(of all types &
+            budgets) PLUS TESTED DIGITAL<br><br> MARKETING STRATEGIES, TO GET WHAT YOU<br><br> REALLY WANT ,NEW CLIENT
+            AND SALES</font><br><br><br><br>
+        <font face="arial" size="6" color="red"><b>30</b></font>
+        <font face="arial" size="6" color="#0096FF"><i><b>LEADS</b></i></font><BR>
+        <font face="arial" size="6" color="red"><b> 30</b></font>
+        <font face="arial" size="6" color="#0096FF"><i><b>DAYS</b></i></font>
+    </div>
+</body>
+
+</html>
