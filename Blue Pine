@@ -1,0 +1,2430 @@
+<!--Home Page-->
+<!doctype html>
+<html>
+
+<head>
+    <title>BLUE PINE </title>
+    <style>
+        div {
+            height: 90%;
+            width: 80%;
+            left: 130px;
+            border: 3px solid white;
+            position: relative;
+            background-color: white;
+            box-shadow: 10px 10px 5px grey;
+        }
+
+        h2,
+        img {
+            line-height: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #number1 {
+            width: 90%;
+            left: 0px;
+            right: 0px;
+            height: 5px;
+            overflow: hidden;
+        }
+
+        #number2 {
+            width: 99%;
+            left: 0px;
+            right: 0px;
+            height: 10px;
+            overflow: hidden;
+        }
+
+        #number3 {
+            width: 99%;
+            left: 0px;
+            right: 0px;
+            height: 10x;
+            overflow: hidden;
+        }
+
+        #number4 {
+            width: 99%;
+            left: 0px;
+            right: 0px;
+            height: 10px;
+            overflow: hidden;
+        }
+
+        a:link {
+            color: black;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: black;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: purple;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        .mh-navigation li:hover,
+        .mh-navigation ul li:hover>ul,
+        .mh-main-nav-wrap,
+        .mh-main-nav,
+        .mh-social-nav li a:hover,
+        .entry-tags li,
+        .mh-slider-caption,
+        .mh-widget-layout8 .mh-widget-title .mh-footer-widget-title-inner,
+        .mh-widget-col-1 .mh-slider-caption,
+        .mh-widget-col-1 .mh-posts-lineup-caption,
+        .mh-carousel-layout1,
+        .mh-spotlight-widget,
+        .mh-social-widget li a,
+        .mh-author-bio-widget,
+        .mh-footer-widget .mh-tab-comment-excerpt,
+        .mh-nip-item:hover .mh-nip-overlay,
+        .mh-widget .tagcloud a,
+        .mh-footer-widget .tagcloud a,
+        .mh-footer,
+        .mh-copyright-wrap,
+        input[type=submit]:hover,
+        #infinite-handle span:hover {
+            background: #000000;
+        }
+
+        .mh-extra-nav-bg {
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        .mh-slider-caption,
+        .mh-posts-stacked-title,
+        .mh-posts-lineup-caption {
+            background: #000000;
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        @media screen and (max-width: 900px) {
+
+            #mh-mobile .mh-slider-caption,
+            #mh-mobile .mh-posts-lineup-caption {
+                background: rgba(0, 0, 0, 1);
+            }
+        }
+
+        .slicknav_menu,
+        .slicknav_nav ul,
+        #mh-mobile .mh-footer-widget .mh-posts-stacked-overlay {
+            border-color: #000000;
+        }
+
+        .mh-copyright,
+        .mh-copyright a {
+            color: #fff;
+        }
+
+        .mh-widget-layout4 .mh-widget-title {
+            background: #000000;
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        .mh-preheader,
+        .mh-wide-layout .mh-subheader,
+        .mh-ticker-title,
+        .mh-main-nav li:hover,
+        .mh-footer-nav,
+        .slicknav_menu,
+        .slicknav_btn,
+        .slicknav_nav .slicknav_item:hover,
+        .slicknav_nav a:hover,
+        .mh-back-to-top,
+        .mh-subheading,
+        .entry-tags .fa,
+        .entry-tags li:hover,
+        .mh-widget-layout2 .mh-widget-title,
+        .mh-widget-layout4 .mh-widget-title-inner,
+        .mh-widget-layout4 .mh-footer-widget-title,
+        .mh-widget-layout5 .mh-widget-title-inner,
+        .mh-widget-layout6 .mh-widget-title,
+        #mh-mobile .flex-control-paging li a.flex-active,
+        .mh-image-caption,
+        .mh-carousel-layout1 .mh-carousel-caption,
+        .mh-tab-button.active,
+        .mh-tab-button.active:hover,
+        .mh-footer-widget .mh-tab-button.active,
+        .mh-social-widget li:hover a,
+        .mh-footer-widget .mh-social-widget li a,
+        .mh-footer-widget .mh-author-bio-widget,
+        .tagcloud a:hover,
+        .mh-widget .tagcloud a:hover,
+        .mh-footer-widget .tagcloud a:hover,
+        .mh-posts-stacked-item .mh-meta,
+        .page-numbers:hover,
+        .mh-loop-pagination .current,
+        .mh-comments-pagination .current,
+        .pagelink,
+        a:hover .pagelink,
+        input[type=submit],
+        #infinite-handle span {
+            background: #000000;
+        }
+
+        .mh-main-nav-wrap .slicknav_nav ul,
+        blockquote,
+        .mh-widget-layout1 .mh-widget-title,
+        .mh-widget-layout3 .mh-widget-title,
+        .mh-widget-layout5 .mh-widget-title,
+        .mh-widget-layout8 .mh-widget-title:after,
+        #mh-mobile .mh-slider-caption,
+        .mh-carousel-layout1,
+        .mh-spotlight-widget,
+        .mh-author-bio-widget,
+        .mh-author-bio-title,
+        .mh-author-bio-image-frame,
+        .mh-video-widget,
+        .mh-tab-buttons,
+        textarea:hover,
+        input[type=text]:hover,
+        input[type=email]:hover,
+        input[type=tel]:hover,
+        input[type=url]:hover {
+            border-color: #000000;
+        }
+
+        .mh-header-tagline,
+        .mh-dropcap,
+        .mh-carousel-layout1 .flex-direction-nav a,
+        .mh-carousel-layout2 .mh-carousel-caption,
+        .mh-posts-digest-small-category,
+        .mh-posts-lineup-more,
+        .bypostauthor .fn:after,
+        .mh-comment-list .comment-reply-link:before,
+        #respond #cancel-comment-reply-link:before {
+            color: #000000;
+        }
+
+        .entry-content a {
+            color: #820015;
+        }
+
+        a:hover,
+        .entry-content a:hover,
+        #respond a:hover,
+        #respond #cancel-comment-reply-link:hover,
+        #respond .logged-in-as a:hover,
+        .mh-comment-list .comment-meta a:hover,
+        .mh-ping-list .mh-ping-item a:hover,
+        .mh-meta a:hover,
+        .mh-breadcrumb a:hover,
+        .mh-tabbed-widget a:hover {
+            color: red;
+        }
+    </style>
+</head>
+
+<body bgcolor="#C0C0C0">
+    <div>
+        <img src="logo.jpg" width="12%" align="left"></img><br>
+        <font SIZE="10" face="ARIAL">
+            <h2 style="text-align:right;"><b>BLUE PINE</b></h2>
+        </font>
+        <table id="header" border="1" width="100%" cellpadding="0" cellspacing="0" bgcolor="black">
+            <tr>
+                <td>
+                    <table>
+                        <table border="1" width="100%" cellpadding="15" cellspacing="0" align="center">
+                            <tr align="center">
+                                <td>
+                                    <a href="internship.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>HOME</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Economy.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>ECONOMY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Finance.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>FINANCE</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Industry.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>INDUSTRY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Technology.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>TECHNOLOGY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Crypto.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>CRYPTO</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="More.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>MORE</b></font>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="black">
+            <tr>
+                <td align="center">
+                    <font face="Times new roman" color="white" size="4"><B>News Ticker</B> </font>
+                </td>
+                <td>
+                    <table align="center" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#D3D3D3">
+                        <td align="center">
+                            <font face="arial" color="black" size="3">
+                                <marquee scrollamount="2" behaviour="alternate" width="60%" direction="up"
+                                    height="100px">
+                                    <a href="#number1">[ June 17, 2022 ] Employment opportunities Fall Slightly, Remain
+                                        Above 11 Million</a><br><br>
+                                    <a href="#number2">[ June 17, 2022 ] Taken care of ‘Beige Book’ Finds Economy
+                                        Moderating, Concern About the Future </a><br><br>
+                                    <a href="#number3">[June 17, 2022 ] Gabe Kapler: MLB’s liberal athlete in America’s
+                                        most safe association </a><br><br>
+                                    <a href="#number4">[June 17, 2022 ] Entomb to hold talks over conceivable return for
+                                        Romelu Lukaku from Chelsea
+                                </marquee></a>
+                                </marquee>
+                            </font>
+                        </td>
+                </td>
+                <td>
+                <td align="right">
+                    <form
+                        style="box-shadow: 5px 5px 5px rgba(0,0,0,0.1), 15px 15px 15px rgba(0,0,0,0.1), 20px 20px 15px rgba(0,0,0,0.1), 30px 30px 15px rgba(0,0,0,0.1); role="
+                        search" method="get" class="search-form" action="https://www.flickstree.com/">
+                        <label>
+                            <input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+                            <ion-icon
+                                style="position:absolute; right: 20px; color: grey; font-size: 1.1em; cursor:pointer; "
+                                name="search-outline"></ion-icon>
+                        </label>
+                    </form>
+                    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+                    </script>
+                    <script module src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+                </td>
+                </td>
+            </tr>
+        </table>
+        </table>
+        </table>
+        <br>
+        <center>
+            <font align="left" face="Helvetica" size="6"><b>Analysis: U.S. crypto-lending firms likely to see greater
+                    regulation after Celsius troubles</b></font><br><br>
+        </center>
+        <center>
+            <img src="merged.gif" width="90%" style="border:2px solid black;" height="640px"></img><br><br>
+        </center>
+
+        <div id="number1">
+            <hr size="1" color="white" width="100%">
+        </div>
+
+        <img src="3.jpg" align="left" width="300" height="300" style="border:2px solid black;" hspace="15px"></img>
+
+        <iframe width="330" height="300" align="right" loading="eager" style="border:2px solid black;"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=f021df9a2942d3a&pid=31"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <font size="5">
+            <p>Employment opportunities Fall Slightly,<br> Remain Above 11 Million
+        </font><br><br>
+        <font size="4"> The work market is directing, in accordance with<br> Federal Reserve wants.
+            Employment opportunities<br> in the U.S. facilitated marginally from their record<br> March level declared
+            in April, however stayed over<br> 11 million, the Labor Department covered. Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Qui accusamus porro sit eaque maxime quam possimus quod nemo odio. Ratione,
+            voluptatum! Hic culpa ex, quo maiores officia tempora? Odio, enim.</p>
+        </font>
+
+
+        <div id="number2">
+            <hr color="grey" width="100%" size="1">
+        </div>
+
+        <iframe width="330" height="300" align="right" loading="eager" style="border:2px solid black;"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=9d51ae7d3367d37&pid={publisherid}"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <img src="4.jpg" align="left" width="300" height="300" style="border:2px solid black;" hspace="15px"></img>
+        <font size="5" align="center">
+            <p>Taken care of ‘Beige Book’ Finds Economy Moderating, Concern About<br> the Future <br>
+        </font><br>
+        <font size="4" align="center">Expansion, financing costs and Russia’s conflict in Ukraine are
+            negatively affecting the economy, the Federal Reserve finds. The U.S. economy is<br> proceeding to grow,
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut dolorum eligendi illum doloremque deleniti
+            commodi, cumque asperiores suscipit! Aliquam, est unde! Consequuntur aut voluptatem omnis ipsa, nam nemo
+            atque impedit.
+            <div id="number3">
+                <hr color="grey" width="100%" size="1">
+            </div>
+            <iframe width="330" height="300" align="right" loading="eager" style="border:2px solid black;"
+                src="https://sales.flickstree.com/partners/sales/ftplayer?id=025a9f1a95571e1&pid=31"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <img src="5.jpg" align="left" width="300" height="300" style="border:2px solid black;" hspace="15px"></img>
+            <font size="5" align="left">
+                <p>Gabe Kapler: MLB’s liberal athlete in <br>America’s most safe association</p>
+            </font>
+            <font size="4" align="center">They were colleagues on the revile busting 2004<br> Boston Red Sox: Curt
+                Schilling, the splendid and<br> valiant pitcher, and Gabe Kapler, an understudy<br> outfielder who
+                bragged
+                the physical make-up <br>Charles Atlas yet was some way Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Voluptatum earum amet ducimus rerum id obcaecati architecto sunt ipsam quae nostrum
+                adipisci, qui dolores, molestias consequatur molestiae maxime neque soluta maiores.</p>
+            </font>
+            <div id="number4">
+                <hr color="grey" width="100%" size="1">
+            </div>
+            <iframe width="330" height="300" align="right" loading="eager" style="border:2px solid black;"
+                src="https://sales.flickstree.com/partners/sales/ftplayer?id=aa9bd9ee5298d1a&pid=8"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <img src="6.jpg" align="left" width="300" height="300" style="border:2px solid black;" hspace="15px"></img>
+            <font size="5" align="left">
+                <p>Entomb to hold talks over conceivable return for Romelu Lukaku from Chelsea</p>
+            </font>
+            <font size="4" align="center">Talks booked with striker’s attorney yet bargain muddled Player standing by to
+                hear how Chelsea <br>view his future Internazionale are because of hold converses with Romelu Lukaku’s
+                legal counselor on Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente corrupti
+                aspernatur, veritatis maxime esse nesciunt placeat voluptate earum ipsa iste quam, modi, quas temporibus
+                beatae pariatur? Obcaecati sunt unde quibusdam. </font><br><br>
+            <table border="17" width="100%" cellpadding="0" cellspacing="0" bgcolor="#D3D3D3">
+                <td align="center">
+                    <font size="5" face="arial"><b>Services</b></font>
+
+        </font>
+
+        <hr color="red" width="25%" size="3" align="center">
+        <font size="4px"><a href="about_us_intern.html" style="text-decoration: none;">About Us</a></font>
+        <hr color="grey" width="25%" size="1" align="center">
+        <font size="4px"><a href="contact.html" style="text-decoration: none;">Contact Us</a>
+        </font>
+        <hr color="grey" width="25%" size="1" align="center">
+        <font size="4px"><a href="internship.html" style="text-decoration: none;">Home</a></font>
+        <hr color="grey" width="25%" size="1" align="center">
+        <font size="4px"><a href="privacy.html" style="text-decoration: none;">Privacy Policy</a>
+        </font>
+        <hr color="grey" width="25%" size="1" align="center">
+        <font size="4px"><a href="terms.html" style="text-decoration: none;">Terms and
+                Conditions</a>
+        </font>
+        <hr color="grey" width="25%" size="1" align="center">
+        </td>
+    </div>
+</body>
+
+</html>
+<!--about us-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Us - BLUE PINE</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="intern.css/">
+    <style>
+        div {
+            height: 650px;
+            width: 80%;
+            left: 130px;
+            border: 3px solid white;
+            position: relative;
+            background-color: white;
+            box-shadow: 10px 10px 5px grey;
+        }
+
+        h2,
+        img {
+            line-height: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body bgcolor="#C0C0C0">
+    <div>
+        <img src="logo.jpg" width="180" height="140" align="left"></img><br>
+        <font SIZE="10" face="ARIAL">
+            <h2 style="text-align:right;"><b>BLUE PINE</b></h2>
+        </font>
+        <table id="header" border="1" width="100%" cellpadding="0" cellspacing="0" bgcolor="black">
+            <tr>
+                <td>
+                    <table>
+                        <table border="1" width="100%" cellpadding="15" cellspacing="0" align="center">
+                            <tr align="center">
+                                <td>
+                                    <a href="internship.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>HOME</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Economy.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>ECONOMY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Finance.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>FINANCE</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Industry.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>INDUSTRY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Technology.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>TECHNOLOGY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Crypto.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>CRYPTO</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="More.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>MORE</b></font>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <center>
+            <img src="digital.jpg" width="550" height="450" align="right"></img><br><br><br><br>
+        </center>
+        <font face="arial" align="left" size="9"><b>YOU NEED <font color="#DO3D56" align="center" face="arial">
+                    <b>LEADS...</b>
+                </font></b></font><br><br><br>
+        <font face="verdana" text-align="center" size="4">WE CREATE UNIQUE, ENGAGING VIDEOS <br><br>(of all types &
+            budgets) PLUS TESTED DIGITAL<br><br> MARKETING STRATEGIES, TO GET WHAT YOU<br><br> REALLY WANT ,NEW CLIENT
+            AND SALES</font><br><br><br><br>
+        <font face="arial" size="6" color="red"><b>30</b></font>
+        <font face="arial" size="6" color="#0096FF"><i><b>LEADS</b></i></font><BR>
+        <font face="arial" size="6" color="red"><b> 30</b></font>
+        <font face="arial" size="6" color="#0096FF"><i><b>DAYS</b></i></font>
+    </div>
+</body>
+
+</html>
+<!--crypto-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crypto - BLUE PINE</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        div {
+            height: 1575px;
+            width: 80%;
+            left: 130px;
+            border: 3px solid white;
+            position: relative;
+            background-color: white;
+            box-shadow: 10px 10px 5px grey;
+        }
+
+        h2,
+        img {
+            line-height: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body bgcolor="#C0C0C0">
+    <div>
+        <img src="logo.jpg" width="180" height="140" align="left"></img><br>
+        <font SIZE="10" face="ARIAL">
+            <h2 style="text-align:right;"><b>BLUE PINE</b></h2>
+        </font>
+        <table id="header" border="1" width="100%" cellpadding="0" cellspacing="0" bgcolor="black">
+            <tr>
+                <td>
+                    <table>
+                        <table border="1" width="100%" cellpadding="15" cellspacing="0" align="center">
+                            <tr align="center">
+                                <td>
+                                    <a href="internship.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>HOME</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Economy.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>ECONOMY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Finance.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>FINANCE</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Industry.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>INDUSTRY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Technology.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>TECHNOLOGY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Crypto.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>CRYPTO</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="More.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>MORE</b></font>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <font text-align="center" face="arial" size="5" hspace="15px">
+            <center><b>
+                    <marquee width="80%" scrollamount="7">Crypto</marquee>
+                </b>
+        </font>
+        </center>
+        <hr width="100%" color="grey" size="2">
+        <img src="eco1.jpg" align="left" width="300" height="280" style="border:2px solid black;" hspace="15px"></img>
+        <iframe width="330" height="300" align="right" style="border:2px solid black;"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=0528c5bfe9f5469&pid=&nobuy=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <font size="5" align="center">
+            <p>Flashback – Joe Biden: ‘I Guarantee You We’re Going to End Fossil Fuels’
+        </font><br><br>
+        <font size="4" align="center"> Then-candidate Joe Biden said in 2019 that he would “end” the fossil fuel
+            industry in the United States. “I want you to look at my eyes. I guarantee you, I guarantee you we’re going
+            to Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem. Suscipit aperiam non eveniet,
+            autem reiciendis nostrum architecto temporibus repellat reprehenderit aliquam rem aspernatur natus corporis
+            et dicta labore expedita?</p><br>
+        </font>
+
+        <hr color="grey" width="100%" size="1">
+
+        <iframe width="330" height="300" align="right" style="border:2px solid black;"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=ec2e7279bd46440&pid=&nobuy=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <img src="eco2.jpg" align="left" style="border:2px solid black;" width="300" height="280" hspace="15px"></img>
+        <font size="5" align="center">
+            <p>Pressure on For Russian Gas-Addict Germany as Kremlin Throttles Supply
+        </font><br><br>
+        <font size="4" align="center">Officials in Russian gas-addicted state Germany appear to be starting to sweat as
+            the Kremlin turns down its supply to the country over what it describes as technical issues. Russian state
+            gas provider Gazprom has Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis alias
+            molestiae mollitia asperiores tempore voluptates aut aperiam. Corrupti, voluptates minima. Vel doloribus
+            officia qui enim delectus dicta mollitia atque. Sit.
+        </font>
+        <hr color="grey" width="100%" size="1">
+        <iframe width="330" height="300" align="right" style="border:2px solid black;"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=41abac43f635a8f&pid=&nobuy=0&sub3=plusyouapp&sub4=&user_id=&session_id=&config=%7B%22overlay_primary_btn_text%22%3A%22Cashback%3A+10%25%22%7D"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <img src="eco3.jpg" align="left" style="border:2px solid black;" width="300" height="285" hspace="15px"></img>
+        <font size="5" align="left">
+            <p>Cuban Dissidents Urge FCC to Review Sale of Anti-Communist Radio Stations to Soros-Backed Leftist</p>
+        </font>
+        <font size="4" align="center">The Assembly of the Cuban Resistance, a coalition of pro-democracy Cuban groups on
+            and off the island, sent a letter on Tuesday to the head of the Federal Communications Commission (FCC)
+            urging it to engage Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eius dignissimos earum
+            quaerat, quam porro adipisci aperiam dolores facere ad eos voluptatibus veritatis expedita, fugit iure ipsa
+            ratione impedit recusandae.</p>
+        </font>
+        <hr color="grey" width="100%" size="1">
+        <iframe width="330" height="300" align="right" style="border:2px solid black;"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=e4005dd86fee988&pid=&nobuy=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <img src="eco4.jpg" align="left" style="border:2px solid black;" width="300" height="280" hspace="15px"></img>
+        <font size="5" align="left">
+            <p>Global Food Crisis: Ukrainian Farmers Fearing ‘Hell’ Harvest Amid Invasion</p>
+        </font>
+        <font size="4" align="center">Ukrainian farmers are reportedly preparing for a “hell” harvest season, with
+            physical and financial dangers predicted to prevent them from reaping, transporting and selling their crops.
+            While food prices rise worldwide, reflecting growing shortages, farmers Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Ipsam, consectetur! Atque sint excepturi necessitatibus incidunt, voluptas, ab
+            dolores, eligendi nesciunt reiciendis rem soluta voluptate deserunt quibusdam illo quae omnis mollitia!
+        </font><br>
+        <hr width="100%" size="3" color="grey">
+    </div>
+</body>
+
+</html>
+</div>
+</body>
+
+</html>
+<!--economy-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Economy - BLUE PINE</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        div {
+            height: 1585px;
+            width: 80%;
+            left: 130px;
+            border: 3px solid white;
+            position: relative;
+            background-color: white;
+            box-shadow: 10px 10px 5px grey;
+        }
+
+        h2,
+        img {
+            line-height: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body bgcolor="#C0C0C0">
+    <div>
+        <img src="logo.jpg" width="180" height="140" align="left"></img><br>
+        <font SIZE="10" face="ARIAL">
+            <h2 style="text-align:right;"><b>BLUE PINE</b></h2>
+        </font>
+        <table id="header" border="1" width="100%" cellpadding="0" cellspacing="0" bgcolor="black">
+            <tr>
+                <td>
+                    <table>
+                        <table border="1" width="100%" cellpadding="15" cellspacing="0" align="center">
+                            <tr align="center">
+                                <td>
+                                    <a href="internship.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>HOME</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Economy.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>ECONOMY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Finance.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>FINANCE</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Industry.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>INDUSTRY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Technology.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>TECHNOLOGY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Crypto.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>CRYPTO</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="More.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>MORE</b></font>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <font text-align="center" face="arial" size="6" hspace="15px">
+            <center><b>
+                    <marquee width="80%" scrollamount="7">Economy</marquee>
+                </b>
+        </font>
+        </center>
+        <hr width="100%" color="grey" size="2">
+        <img src="eco1.jpg" align="left" width="300" height="280" style="border:2px solid black;" hspace="15px"></img>
+        <iframe width="330" height="300" align="right"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=89a45b85212c242&pid=&nobuy=0&sub3=plusyouapp&sub4=&user_id=&session_id=&config=%7B%22overlay_primary_btn_text%22%3A%22Cashback%3A+%26%238377%3B10%22%7D"
+            title="YouTube video player" frameborder="5" loading="eager"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            style="border:2px solid black;" allowfullscreen></iframe>
+        <font size="5" align="center">
+            <p>Flashback – Joe Biden: ‘I Guarantee You We’re Going to End Fossil Fuels’
+        </font><br><br>
+        <font size="4" align="center"> Then-candidate Joe Biden said in 2019 that he would “end” the fossil fuel
+            industry in the United States. “I want you to look at my eyes. I guarantee you, I guarantee you we’re going
+            to Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptate consequuntur est, enim
+            cumque quos maxime unde, laborum quis nam repudiandae aliquam provident doloribus molestias soluta dolorem.
+            Laborum, aspernatur enim.</p><br>
+        </font>
+
+        <hr color="grey" width="100%" size="1">
+
+        <iframe width="330" height="300" align="right"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=1ea9fa2f681bb4a&pid=&nobuy=0&sub3=plusyouapp&sub4=&user_id=&session_id=&config=%7B%22overlay_primary_btn_text%22%3A%22Cashback%3A+3%25%22%7D"
+            title="YouTube video player" frameborder="0" style="border:2px solid black;"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <img src="eco2.jpg" align="left" width="300" height="280" style="border:2px solid black;" hspace="15px"></img>
+        <font size="5" align="center">
+            <p>Pressure on For Russian Gas-Addict Germany as Kremlin Throttles Supply
+        </font><br><br>
+        <font size="4" align="center">Officials in Russian gas-addicted state Germany appear to be starting to sweat as
+            the Kremlin turns down its supply to the country over what it describes as technical issues. Russian state
+            gas provider Gazprom has Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, saepe vel dolore
+            facilis quod excepturi fugiat et dicta suscipit odio consequatur voluptates explicabo! Voluptatum totam
+            similique doloribus veniam, amet possimus?
+        </font>
+        <hr color="grey" width="100%" size="1">
+        <iframe width="330" height="300" align="right"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=9dac9f612191e76&pid=&nobuy=0"
+            title="YouTube video player" frameborder="0" style="border:2px solid black;"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <img src="eco3.jpg" align="left" width="300" height="285" style="border:2px solid black;" hspace="15px"></img>
+        <font size="5" align="left">
+            <p>Cuban Dissidents Urge FCC to Review Sale of Anti-Communist Radio Stations to Soros-Backed Leftist</p>
+        </font>
+        <font size="4" align="center">The Assembly of the Cuban Resistance, a coalition of pro-democracy Cuban groups on
+            and off the island, sent a letter on Tuesday to the head of the Federal Communications Commission (FCC)
+            urging it to engage Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, rerum. Soluta
+            ratione dolores recusandae dolore sapiente natus animi expedita ad totam. Numquam assumenda, sint doloremque
+            error ratione quidem modi at!</p>
+        </font>
+        <hr color="grey" width="100%" size="1">
+        <iframe width="330" height="300" align="right" style="border:2px solid black;"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=a6d404ec0774142&pid=&nobuy=0&sub3=plusyouapp&sub4=&user_id=&session_id=&config=%7B%22overlay_primary_btn_text%22%3A%22Cashback%3A+8.75%25%22%7D"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            style="border:2px solid black;" allowfullscreen></iframe>
+        <img src="eco4.jpg" align="left" width="300" height="280" style="border:2px solid black;" hspace="15px"></img>
+        <font size="5" align="left">
+            <p>Global Food Crisis: Ukrainian Farmers Fearing ‘Hell’ Harvest Amid Invasion</p>
+        </font>
+        <font size="4" align="center">Ukrainian farmers are reportedly preparing for a “hell” harvest season, with
+            physical and financial dangers predicted to prevent them from reaping, transporting and selling their crops.
+            While food prices rise worldwide, reflecting growing shortages, farmers Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Odio suscipit maxime similique exercitationem ad eos itaque neque optio!
+            Velit, laboriosam? Ab laudantium commodi unde iste nobis soluta sequi accusamus ducimus.</font><br>
+        <hr width="100%" size="3" color="grey">
+    </div>
+</body>
+
+</html>
+<!--industry-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Industry - BLUE PINE</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        div {
+            height: 1565px;
+            width: 80%;
+            left: 130px;
+            border: 3px solid white;
+            position: relative;
+            background-color: white;
+            box-shadow: 10px 10px 5px grey;
+        }
+
+        h2,
+        img {
+            line-height: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body bgcolor="#C0C0C0">
+    <div>
+        <img src="logo.jpg" width="180" height="140" align="left"></img><br>
+        <font SIZE="10" face="ARIAL">
+            <h2 style="text-align:right;"><b>BLUE PINE</b></h2>
+        </font>
+        <table id="header" border="1" width="100%" cellpadding="0" cellspacing="0" bgcolor="black">
+            <tr>
+                <td>
+                    <table>
+                        <table border="1" width="100%" cellpadding="15" cellspacing="0" align="center">
+                            <tr align="center">
+                                <td>
+                                    <a href="internship.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>HOME</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Economy.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>ECONOMY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Finance.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>FINANCE</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Industry.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>INDUSTRY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Technology.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>TECHNOLOGY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Crypto.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>CRYPTO</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="More.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>MORE</b></font>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <font text-align="center" face="arial" size="6" hspace="15px">
+            <center><b>
+                    <marquee width="80%" scrollamount="7">Industry</marquee>
+                </b>
+        </font>
+        </center>
+        <hr width="100%" color="grey" size="2">
+        <img src="eco1.jpg" align="left" width="300" height="280" style="border:2px solid black;" hspace="15px"></img>
+        <iframe width="330" height="300" align="right"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=2a6dcf2f98cf69a&pid=&nobuy=0"
+            style="border:2px solid black;" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <font size="5" align="center">
+            <p>Flashback – Joe Biden: ‘I Guarantee You We’re Going to End Fossil Fuels’
+        </font><br><br>
+        <font size="4" align="center"> Then-candidate Joe Biden said in 2019 that he would “end” the fossil fuel
+            industry in the United States. “I want you to look at my eyes. I guarantee you, I guarantee you we’re going
+            to Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ipsum nulla officia neque dolore id
+            nesciunt cum, iure aperiam provident! Placeat nesciunt debitis fugiat totam esse? Ex enim deserunt eos.</p>
+            <br>
+        </font>
+
+        <hr color="grey" width="100%" size="1">
+
+        <iframe width="330" height="300" align="right" style="border:2px solid black;"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=bec9fa6f4c138f6&pid=&nobuy=0&sub3=plusyouapp&sub4=&user_id=&session_id=&config=%7B%22overlay_primary_btn_text%22%3A%22Cashback%3A+%26%2336%3B0%22%7D"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <img src="eco2.jpg" align="left" style="border:2px solid black;" width="300" height="280" hspace="15px"></img>
+        <font size="5" align="center">
+            <p>Pressure on For Russian Gas-Addict Germany as Kremlin Throttles Supply
+        </font><br><br>
+        <font size="4" align="center">Officials in Russian gas-addicted state Germany appear to be starting to sweat as
+            the Kremlin turns down its supply to the country over what it describes as technical issues. Russian state
+            gas provider Gazprom has Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, autem! Quia cum
+            omnis laboriosam sed ullam sapiente veniam consectetur totam. A ratione iure magni quos autem at eos odio
+            repudiandae?
+        </font>
+        <hr color="grey" width="100%" size="1">
+        <iframe width="330" height="300" align="right" style="border:2px solid black;"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=fcc7ef15d628366&pid=&nobuy=0&sub3=plusyouapp&sub4=&user_id=&session_id=&config=%7B%22overlay_primary_btn_text%22%3A%22Cashback%3A+7%25%22%7D"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <img src="eco3.jpg" align="left" style="border:2px solid black;" width="300" height="285" hspace="15px"></img>
+        <font size="5" align="left">
+            <p>Cuban Dissidents Urge FCC to Review Sale of Anti-Communist Radio Stations to Soros-Backed Leftist</p>
+        </font>
+        <font size="4" align="center">The Assembly of the Cuban Resistance, a coalition of pro-democracy Cuban groups on
+            and off the island, sent a letter on Tuesday to the head of the Federal Communications Commission (FCC)
+            urging it to engage Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus similique repellat
+            natus magnam voluptatum quod nisi ex non at, alias sint, libero quas quis? Sapiente quas facere at atque ab.
+            </p>
+        </font>
+        <hr color="grey" width="100%" size="1">
+        <iframe width="330" height="300" align="right" style="border:2px solid black;"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=821db274accb725&pid=&nobuy=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <img src="eco4.jpg" align="left" style="border:2px solid black;" width="300" height="280" hspace="15px"></img>
+        <font size="5" align="left">
+            <p>Global Food Crisis: Ukrainian Farmers Fearing ‘Hell’ Harvest Amid Invasion</p>
+        </font>
+        <font size="4" align="center">Ukrainian farmers are reportedly preparing for a “hell” harvest season, with
+            physical and financial dangers predicted to prevent them from reaping, transporting and selling their crops.
+            While food prices rise worldwide, reflecting growing shortages, farmers Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Maxime dolor delectus reiciendis odio, consectetur libero? Maiores minima
+            maxime voluptatum accusantium ea voluptates ad nam reprehenderit neque hic? Doloremque, nostrum iure.</font>
+        <br>
+        <hr width="100%" size="3" color="grey">
+    </div>
+</body>
+
+</html>
+</div>
+</body>
+
+</html>
+<!--finance-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Finance - BLUE PINE</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        div {
+            height: 1575px;
+            width: 80%;
+            left: 130px;
+            border: 3px solid white;
+            position: relative;
+            background-color: white;
+            box-shadow: 10px 10px 5px grey;
+        }
+
+        h2,
+        img {
+            line-height: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body bgcolor="#C0C0C0">
+    <div>
+        <img src="logo.jpg" width="180" height="140" align="left"></img><br>
+        <font SIZE="10" face="ARIAL">
+            <h2 style="text-align:right;"><b>BLUE PINE</b></h2>
+        </font>
+        <table id="header" border="1" width="100%" cellpadding="0" cellspacing="0" bgcolor="black">
+            <tr>
+                <td>
+                    <table>
+                        <table border="1" width="100%" cellpadding="15" cellspacing="0" align="center">
+                            <tr align="center">
+                                <td>
+                                    <a href="internship.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>HOME</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Economy.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>ECONOMY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Finance.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>FINANCE</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Industry.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>INDUSTRY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Technology.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>TECHNOLOGY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Crypto.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>CRYPTO</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="More.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>MORE</b></font>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <font text-align="center" face="arial" size="6" hspace="15px">
+            <center><b>
+                    <marquee width="80%" scrollamount="7">Finance</marquee>
+                </b>
+        </font>
+        </center>
+        <hr width="100%" color="grey" size="2">
+        <img src="eco1.jpg" align="left" width="300" height="280" style="border:2px solid black;" hspace="15px"></img>
+        <iframe width="330" height="300" align="right"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=c66f854f8b8ddcf&pid=&nobuy=0"
+            style="border:2px solid black;" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <font size="5" align="center">
+            <p>Flashback – Joe Biden: ‘I Guarantee You We’re Going to End Fossil Fuels’
+        </font><br><br>
+        <font size="4" align="center"> Then-candidate Joe Biden said in 2019 that he would “end” the fossil fuel
+            industry in the United States. “I want you to look at my eyes. I guarantee you, I guarantee you we’re going
+            to Lorem ipsum dolor sit amet consectetur adipisicing elit. Est a hic explicabo. Ipsam doloremque sequi,
+            delectus nam quas voluptate molestias vero aperiam eligendi tempora beatae nisi velit, rerum laborum quae.
+            </p><br>
+        </font>
+
+        <hr color="grey" width="100%" size="1">
+
+        <iframe width="330" height="300" align="right" style="border:2px solid black;"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=60e44da75f699c7&pid=&nobuy=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <img src="eco2.jpg" align="left" width="300" height="280" style="border:2px solid black;" hspace="15px"></img>
+        <font size="5" align="center">
+            <p>Pressure on For Russian Gas-Addict Germany as Kremlin Throttles Supply
+        </font><br><br>
+        <font size="4" align="center">Officials in Russian gas-addicted state Germany appear to be starting to sweat as
+            the Kremlin turns down its supply to the country over what it describes as technical issues. Russian state
+            gas provider Gazprom has Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque obcaecati
+            commodi ipsam minima quasi fugiat rerum tempora at. Odio facilis porro dolorum pariatur est, perferendis
+            optio! Illum at rem nostrum?
+        </font>
+        <hr color="grey" width="100%" size="1">
+        <iframe width="330" height="300" align="right" style="border:2px solid black;"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=809d115f19374f1&pid=&nobuy=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <img src="eco3.jpg" align="left" width="300" height="285" style="border:2px solid black;" hspace="15px"></img>
+        <font size="5" align="left">
+            <p>Cuban Dissidents Urge FCC to Review Sale of Anti-Communist Radio Stations to Soros-Backed Leftist</p>
+        </font>
+        <font size="4" align="center">The Assembly of the Cuban Resistance, a coalition of pro-democracy Cuban groups on
+            and off the island, sent a letter on Tuesday to the head of the Federal Communications Commission (FCC)
+            urging it to engage Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio rem ducimus rerum,
+            soluta, ratione temporibus id incidunt mollitia illo possimus quis quos, consequatur necessitatibus facilis
+            aperiam quod eius vel culpa.</p>
+        </font>
+        <hr color="grey" width="100%" size="1">
+        <iframe width="330" height="300" align="right" style="border:2px solid black;"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=1f61c3a6da6fee6&pid=&nobuy=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <img src="eco4.jpg" align="left" style="border:2px solid black;" width="300" height="280" hspace="15px"></img>
+        <font size="5" align="left">
+            <p>Global Food Crisis: Ukrainian Farmers Fearing ‘Hell’ Harvest Amid Invasion</p>
+        </font>
+        <font size="4" align="center">Ukrainian farmers are reportedly preparing for a “hell” harvest season, with
+            physical and financial dangers predicted to prevent them from reaping, transporting and selling their crops.
+            While food prices rise worldwide, reflecting growing shortages, farmers Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Consequatur fugit maxime incidunt quo reiciendis sequi quasi aliquid ex.
+            Distinctio rem quis voluptatibus harum corrupti, adipisci impedit unde tenetur assumenda sapiente?</font>
+        <br>
+        <hr width="100%" size="3" color="grey">
+    </div>
+</body>
+
+</html>
+</div>
+</body>
+
+</html>
+<!--more-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>More - BLUE PINE</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        div {
+            height: 700px;
+            width: 80%;
+            left: 130px;
+            border: 3px solid white;
+            position: relative;
+            background-color: white;
+            box-shadow: 10px 10px 5px grey;
+        }
+
+        h2,
+        img {
+            line-height: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body bgcolor="#C0C0C0">
+    <div>
+        <img src="logo.jpg" width="180" height="140" align="left"></img><br>
+        <font SIZE="10" face="ARIAL">
+            <h2 style="text-align:right;"><b>BLUE PINE</b></h2>
+        </font>
+        <table id="header" border="1" width="100%" cellpadding="0" cellspacing="0" bgcolor="black">
+            <tr>
+                <td>
+                    <table>
+                        <table border="1" width="100%" cellpadding="15" cellspacing="0" align="center">
+                            <tr align="center">
+                                <td>
+                                    <a href="internship.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>HOME</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Economy.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>ECONOMY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Finance.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>FINANCE</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Industry.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>INDUSTRY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Technology.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>TECHNOLOGY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Crypto.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>CRYPTO</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="More.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>MORE</b></font>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <img src="11.2.jpg" align="right" width="60%" height="500px"><br><br><br><br><br>
+        <center>
+            <font face="arial" size="6"><b>"My Company" Tab</b></font><br><br><br><br>
+            <font face="arial" size="5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis sapiente
+                maiores quidem similique optio dolorem perspiciatis unde dolore est, esse veniam quisquam. Commodi
+                magnam saepe quo. Laudantium nulla temporibus cumque!</font>
+        </center>
+    </div>
+</body>
+
+</html>
+<!--privacy-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Privacy and Policy - BLUE PINE</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        div {
+            height: 2870px;
+            width: 80%;
+            left: 130px;
+            border: 3px solid white;
+            position: relative;
+            background-color: white;
+            box-shadow: 10px 10px 5px grey;
+        }
+
+        h2,
+        img {
+            line-height: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body bgcolor="#C0C0C0">
+    <div>
+        <img src="logo.jpg" width="180" height="140" align="left"></img><br>
+        <font SIZE="10" face="ARIAL">
+            <h2 style="text-align:right;"><b>BLUE PINE</b></h2>
+        </font>
+        <table id="header" border="1" width="100%" cellpadding="0" cellspacing="0" bgcolor="black">
+            <tr>
+                <td>
+                    <table>
+                        <table border="1" width="100%" cellpadding="15" cellspacing="0" align="center">
+                            <tr align="center">
+                                <td>
+                                    <a href="internship.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>HOME</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Economy.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>ECONOMY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Finance.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>FINANCE</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Industry.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>INDUSTRY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Technology.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>TECHNOLOGY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Crypto.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>CRYPTO</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="More.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>MORE</b></font>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </table>
+                </td>
+            </tr>
+        </table><br>
+        <iframe width="330" height="300" align="right" loading="eager" style="border:2px solid black;"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=04c215a5fcb3ac0&pid=&nobuy=0"
+            title="YouTube video player" frameborder="10"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <font size="5" face="arial" hspace="15px"><b>Privacy Policy</b></font>
+        <font size="4" face="times new roman">
+
+            <p>At Businessbucks, accessible from businessbucks.co, one of our main priorities is the privacy of our<br>
+                visitors. This Privacy Policy document contains types of information that is collected and recorded by
+                Businessbucks and how we use it.
+
+                If you have additional questions or require more information about our Privacy Policy, do not
+                hesitate
+                to contact us.
+
+                This Privacy Policy applies only to our online <br>activities and is valid for visitors to our website
+                with
+                regards to the information that they shared <br>and/or collect in Businessbucks. This policy is not
+                applicable to any information collected offline or via channels other than this website.</p>
+        </font>
+        </font>
+
+        <font size="5" face="arial"><b>Consent</b></font>
+        <font size="4" face="times new roman">
+            <p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
+        </font>
+        </font>
+
+        <font size="5" face="arial"><b>Information We Collect</b></font>
+        <font size="4" face="times new roman">
+            <p>The personal information that you are asked to provide, and the reasons why you are asked to<br> provide
+                it,
+                will be made clear to you at the point we ask you to provide your personal information.
+                <iframe width="330" height="300" align="right" loading="eager" style="border:2px solid black;"
+                    src="https://sales.flickstree.com/partners/sales/ftplayer?id=ab5a9cf43304638&pid=&nobuy=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                If you contact us directly, we may receive additional information about you such as your name, email
+                address, phone number, the contents of the message and/or attachments you may send us, and any other
+                information you may choose to provide.
+
+                When you register for an Account, we may ask for your contact information, including items such as
+                name,
+                company name, address, email address, and telephone number.
+            </p>
+        </font>
+        </font>
+
+        <font size="5" face="arial"><b>How We Use Your Information</b></font>
+        <font size="4" face="times new roman">
+            <p>We use the information we collect in various ways, including to:<br>
+            <ul>
+                <li>Provide, operate, and maintain our website</li><br>
+                <li> Improve, personalize, and expand our website</li><br>
+                <li>Understand and analyze how you use our website</li><br>
+                <li> Develop new products, services, features, and functionality</li><br>
+                <iframe width="330" height="300" align="right" loading="eager" style="border:2px solid black;"
+                    src="https://sales.flickstree.com/partners/sales/ftplayer?id=0fe0460785e2764&pid=&nobuy=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <li>Communicate with you, either directly or through one of our partners, including for customer<br>
+                    service, to
+                    provide you with updates and other information relating to the website, and for<br> marketing and
+                    promotional purposes</li><br>
+                <li>Send you emails</li><br>
+                <li>Find and prevent fraud</li>
+                </p>
+        </font>
+        </ul>
+        </font>
+
+        <font size="5" face="arial"><b>Log Files</b></font>
+        <font size="4" face="times new roman">
+            <p>Businessbucks follows a standard procedure of using log files. These files log visitors when they<br>
+                visit
+                websites. All hosting companies do this and a part of hosting services’ analytics. The <br>information
+                collected by log files include internet protocol (IP) addresses, browser type, Internet<br> Service
+                Provider
+                (ISP), date and time stamp, referring/exit pages, and possibly the number of <br>clicks. These are not
+                linked to any information that is personally identifiable. The purpose of <br>the information is for
+                analyzing trends, administering the site, tracking users’ movement on the<br> website, and gathering
+                demographic information.</p>
+        </font>
+        <iframe width="330" height="300" align="right" loading="eager" style="border:2px solid black;"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=8ee172256447f42&pid=&nobuy=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <font size="5" face="arial"><b>Our Advertising Partners</b></font>
+        <font size="4" face="times new roman">
+            <p>Some of advertisers on our site may use cookies and web beacons. Our advertising partners are<br> listed
+                below. Each of our advertising partners has their own Privacy Policy for their policies on <br>user
+                data.
+                For easier access, we hyperlinked to their Privacy Policies below.</p>
+        </font>
+
+        <font size="5" face="arial"><b>Advertising Partners Privacy Policies</b></font>
+        <font size="4" face="times new roman">
+            <p>You may consult this list to find the Privacy Policy for each of the advertising partners of<br>
+                Businessbucks.
+                Third-party ad servers or ad networks uses technologies like cookies, <br>JavaScript, or Web Beacons
+                that
+                are used in their respective advertisements and links<br> that appear on Businessbucks, which are sent
+                directly to users’ browser. They <br>automatically receive your IP address when this occurs. These
+                technologies are used to <br>measure the effectiveness of their advertising campaigns and/or to
+                personalize
+                the<br> advertising content that you see on websites that you visit.
+
+                Note that Businessbucks has<br> no access to or control over these cookies that are used by third-party
+                advertisers.</p>
+        </font>
+
+        <font size="5" face="arial"><b>Third Party Privacy Policies</b></font>
+        <iframe width="330" height="300" align="right" loading="eager" style="border:2px solid black;"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=621a74813e34607&pid=&nobuy=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <font size="4" face="times new roman">
+
+            <p>Businessbucks’s Privacy Policy does not apply to other advertisers or websites. Thus, we <br>
+                are advising
+                you
+                to consult the respective Privacy Policies of these third-party ad servers<br> for more detailed
+                information. It may include their practices and instructions about how<br> to opt-out of certain
+                options.
+
+                You can choose to disable cookies through your individual <br>browser options. To know more detailed
+                information about cookie management with <br>specific web browsers, it can be found at the browsers’
+                respective websites.</p>
+        </font>
+
+        <font size="5" face="arial"><b>CCPA Privacy Rights (Do Not Sell My Personal Information)</b></font>
+        <font size="4" face="times new roman">
+            <p>Under the CCPA, among other rights, California consumers have the right to:<br><br>
+            <ul>
+
+                <li>Request that a business that collects a consumer’s personal data disclose the <br>categories and
+                    specific
+                    pieces of personal data that a business has collected about <br> consumers.</li><br>
+                <iframe width="330" height="300" align="right" loading="eager" style="border:2px solid black;"
+                    src="https://sales.flickstree.com/partners/sales/ftplayer?id=0c72a12d635d561&pid=&nobuy=0"
+                    title="YouTube video player" frameborder="10"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <li>Request that a business delete any personal data about the consumer that a <br>
+
+                    business has
+                    collected.</li><br>
+
+                <li>Request that a business that sells a consumer’s personal data, not sell the <br>consumer’s personal
+                    data.</li><br>
+
+                <li> If you make a request, we have one month to respond to you. If you would like to <br>exercise any
+                    of these<br>
+                    rights, please contact us.</li>
+                </p>
+            </ul>
+        </font>
+        <font size="5" face="arial"><b>GDPR Data Protection Rights</b></font>
+        <font size="4" face="times new roman">
+            <p>We would like to make sure you are fully aware of all of your data protection rights. <br>Every user is
+                entitled to the following:<br>
+            <ul>
+
+                <li><b>The right to access – </b>You have the right to request copies of your personal data.<br> We may
+                    charge you a
+                    small fee for this service.</li><br>
+                <iframe width="330" height="300" align="right" loading="eager" style="border:2px solid black;"
+                    src="https://sales.flickstree.com/partners/sales/ftplayer?id=05ca65a9da2aced&pid=&nobuy=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <li><b>The right to rectification – </b>You have the right to request that we correct any
+                    <br>information you believe
+                    is inaccurate. You also have the right to request that we <br>complete the information you believe
+                    is
+                    incomplete.
+                </li><br>
+
+                <li><b>The right to erasure – </b>You have the right to request that we erase your <br>personal data,
+                    under certain
+                    conditions.</li><br>
+
+                <li><b>The right to restrict processing – </b>You have the right to request that we <br>restrict the
+                    processing of your
+                    personal data, under certain conditions</li><br>
+
+                <li><b>The right to object to processing – </b>You have the right to object to our <br>processing of
+                    your personal
+                    data,under certain conditions.</li><br>
+
+                <li><b>The right to data portability – </b>You have the right to request that we transfer<br> the data
+                    that we have
+                    collected to another organization, or directly to you,<br> under certain conditions.</li><br>
+
+                <li>If you make a request, we have one month to respond to you. If you would like<br> to exercise any of
+                    rights, please contact us.</li><br></p>
+            </ul>
+        </font>
+    </div>
+</body>
+
+</html>
+<!--terms-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Terma and Conditions - BLUE PINE</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        div {
+            height: 3860px;
+            width: 80%;
+            left: 130px;
+            border: 3px solid white;
+            position: relative;
+            background-color: white;
+            box-shadow: 10px 10px 5px grey;
+        }
+
+        h2,
+        img {
+            line-height: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body bgcolor="#C0C0C0">
+    <div>
+        <img src="logo.jpg" width="180" height="140" align="left"></img><br>
+        <font SIZE="10" face="ARIAL">
+            <h2 style="text-align:right;"><b>BLUE PINE</b></h2>
+        </font>
+        <table id="header" border="1" width="100%" cellpadding="0" cellspacing="0" bgcolor="black">
+            <tr>
+                <td>
+                    <table>
+                        <table border="1" width="100%" cellpadding="15" cellspacing="0" align="center">
+                            <tr align="center">
+                                <td>
+                                    <a href="internship.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>HOME</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Economy.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>ECONOMY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Finance.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>FINANCE</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Industry.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>INDUSTRY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Technology.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>TECHNOLOGY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Crypto.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>CRYPTO</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="More.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>MORE</b></font>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </table>
+                </td>
+            </tr>
+        </table><br>
+        <iframe width="330" height="300" align="right" loading="eager" style="border:2px solid black;"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=77459aa0cf1843e&pid=&nobuy=0&sub3=plusyouapp&sub4=&user_id=&session_id=&config=%7B%22overlay_primary_btn_text%22%3A%22Cashback%3A+0%25%22%7D"
+            title="YouTube video player" frameborder="10"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <font size="5" face="arial" hspace="15px"><b>Terms and Conditions</b></font>
+        <font size="4" face="times new roman">
+
+            <p>Welcome to Businessbucks!<br><br>
+                These terms and conditions outline the rules and regulations for the use of Businessbucks ‘s Website,
+                <br>located at businessbucks.co.<br><br>
+
+                By accessing this website we assume you accept these terms and conditions. Do not continue to use
+                Businessbucks if you do not agree to take all of the terms and conditions stated on this page.<br><br>
+
+                The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer
+                <br>Notice and all Agreements: “Client”, “You” and “Your” refers to you, the person log on this website
+                <br>and compliant to the Company’s terms and conditions. “The Company”, “Ourselves”, “We”, “Our” <br>and
+                “Us”, refers to our Company. “Party”, “Parties”, or “Us”, refers to both the Client and ourselves.
+                <br>All terms refer to the offer, acceptance and consideration of payment necessary to undertake the<br>
+                process of our assistance to the Client in the most appropriate manner for the express purpose of
+                <br>meeting the Client’s needs in respect of provision of the Company’s stated services, in
+                accordance<br> with and subject to, prevailing law of Netherlands. Any use of the above terminology or
+                other words<br>
+                <iframe width="330" height="300" align="right" loading="eager" style="border:2px solid black;"
+                    src="https://sales.flickstree.com/partners/sales/ftplayer?id=08ba6b30f6249ac&pid=&nobuy=0&sub3=plusyouapp&sub4=&user_id=&session_id=&config=%7B%22overlay_primary_btn_text%22%3A%22Cashback%3A+3%25%22%7D"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and
+                therefore<br> as referring to same.
+            </p>
+        </font>
+        </font>
+
+        <font size="5" face="arial"><b>Cookies</b></font>
+        <font size="4" face="times new roman">
+            <p>We employ the use of cookies. By accessing Businessbucks, you agreed to use cookies in agreement<br> with
+                the Businessbucks ‘s Privacy Policy.<br><br>
+                Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies
+                are<br> used by our website to enable the functionality of certain areas to make it easier for people
+                visiting<br> our website. Some of our affiliate/advertising partners may also use cookies.</p>
+        </font>
+        </font>
+
+        <font size="5" face="arial"><b>License</b></font>
+        <font size="4" face="times new roman">
+            <p>Unless otherwise stated, Businessbucks and/or its licensors own the intellectual property rights for
+                <br>all material on Businessbucks. All intellectual property rights are reserved. You may access this
+                from<br> Businessbucks for your own personal use subjected to restrictions set in these terms and
+                conditions.<br><br>
+
+                You must not:
+                <iframe width="330" height="300" align="right" loading="eager" style="border:2px solid black;"
+                    src="https://sales.flickstree.com/partners/sales/ftplayer?id=aa3c385ac4f3276&pid=&nobuy=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            <ul>
+                <li>Republish material from Businessbucks</li>
+                <li>Sell, rent or sub-license material from Businessbucks</li>
+                <li>Reproduce, duplicate or copy material from Businessbucks</li>
+                <li>Redistribute content from Businessbucks</li>
+            </ul>
+            Parts of this website offer an opportunity for users to post and exchange opinions and information<br> in
+            certain areas of the website. Businessbucks does not filter, edit, publish or review Comments<br> prior to
+            their presence on the website. Comments do not reflect the views and opinions of <br>Businessbucks,its
+            agents and/or affiliates. Comments reflect the views and opinions of the person <br>who post their views and
+            opinions. To the extent permitted by applicable laws, Businessbucks shall<br> not be liable for the Comments
+            or for any liability, damages or expenses caused and/or suffered as a <br>result of any use of and/or
+            posting of and/or appearance of the Comments on this website.<br><br>Businessbucks reserves the right to
+            monitor all Comments and to remove any Comments which can <br>be considered inappropriate, offensive or
+            causes breach of these Terms and Conditions.<br><br>You warrant and represent that:
+            <ul>
+                <iframe width="330" height="300" align="right" loading="eager" style="border:2px solid black;"
+                    src="https://sales.flickstree.com/partners/sales/ftplayer?id=06deaccee8ba67a&pid=&nobuy=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <li>You are entitled to post the Comments on our website and have all necessary licenses and <br>
+                    consents to do so;</li><br>
+                <li>The Comments do not invade any intellectual property right, including without limitation
+                    <br>copyright, patent or trademark of any third party;
+                </li><br>
+                <li>The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise <br>unlawful
+                    material which is an invasion of privacy</li><br>
+                <li>The Comments will not be used to solicit or promote business or custom or present commercial<br>
+                    activities or unlawful activity.</li><br>
+                You hereby grant Businessbucks a non-exclusive license to use, reproduce, edit and authorize <br>others
+                to use, reproduce and edit any of your Comments in any and all forms, formats or media.
+            </ul>
+            </p>
+        </font>
+        </font>
+
+        <font size="5" face="arial"><b>Hyperlinking to our Content</b></font>
+        <font size="4" face="times new roman">
+            <p>The following organizations may link to our Website without prior written approval:<br>
+                <iframe width="330" height="300" align="right" loading="eager" style="border:2px solid black;"
+                    src="https://sales.flickstree.com/partners/sales/ftplayer?id=b4c44169d7d58ad&pid=&nobuy=0&sub3=plusyouapp&sub4=&user_id=&session_id=&config=%7B%22overlay_primary_btn_text%22%3A%22Cashback%3A+%26%238377%3B35%22%7D"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            <ul>
+                <li>Government agencies;</li>
+                <li>Search Engines;</li>
+                <li>News organizations;</li>
+                <li> Online directory distributors may link to our Website in the same manner as they hyperlink to the
+                    <br>
+
+                    Websites of other listed businesses; and
+                </li>
+
+                <li>System wide Accredited Businesses except soliciting non-profit organizations, charity shopping <br>
+
+                    malls, and charity fundraising groups which may not hyperlink to our Web site.</li>
+            </ul>
+
+            These organizations may link to our home page, to publications or to other Website information<br> so long
+            as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, <br>endorsement or
+            approval of the linking party and its products and/or services; and (c) fits within <br>the context of the
+            linking party’s site.<br><br>
+            We may consider and approve other link requests from the following types of organizations:
+            <ul>
+                <li>commonly-known consumer and/or business information sources;</li>
+                <li>Search Engines;</li>
+                <li>News organizations;</li>
+                <li> Online directory distributors may link to our Website in the same manner as they hyperlink to the
+                    <br>
+                    <iframe width="330" height="300" align="right" loading="eager" style="border:2px solid black;"
+                        src="https://sales.flickstree.com/partners/sales/ftplayer?id=45b89797651862a&pid=&nobuy=0"
+                        title="YouTube video player" frameborder="10"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    Websites of other listed businesses; and
+                </li>
+
+                <li>System wide Accredited Businesses except soliciting non-profit organizations, charity shopping <br>
+
+                    malls, and charity fundraising groups which may not hyperlink to our Web site.</li>
+            </ul>
+            </p>
+        </font>
+        </ul>
+        </font>
+
+        <font size="5" face="arial"><b>iFrames</b></font>
+        <font size="4" face="times new roman">
+            <p>Businessbucks follows a standard procedure of using log files. These files log visitors when they<br>
+                visit
+                websites. All hosting companies do this and a part of hosting services’ analytics. The <br>information
+                collected by log files include internet protocol (IP) addresses, browser type, Internet<br> Service
+                Provider
+                (ISP), date and time stamp, referring/exit pages, and possibly the number of <br>clicks. These are not
+                linked to any information that is personally identifiable. The purpose of <br>the information is for
+                analyzing trends, administering the site, tracking users’ movement on the<br> website, and gathering
+                demographic information.</p>
+        </font>
+
+
+        <font size="5" face="arial"><b>Content Liability</b></font>
+        <font size="4" face="times new roman">
+            <p>Some of advertisers on our site may use cookies and web beacons. Our advertising partners are<br> listed
+                below. Each of our advertising partners has their own Privacy Policy for their policies on <br>
+                <iframe width="330" height="300" align="right" loading="eager" style="border:2px solid black;"
+                    src="https://sales.flickstree.com/partners/sales/ftplayer?id=3ea780436dbcdfb&pid=&nobuy=0"
+                    title="YouTube video player" frameborder="10"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                user
+                data.
+                For easier access, we hyperlinked to their Privacy Policies below.
+            </p>
+        </font>
+
+        <font size="5" face="arial"><b>Your Privacy</b></font>
+        <font size="4" face="times new roman">
+            <p>Please Read Privacy Policy</p>
+        </font>
+
+        <font size="5" face="arial"><b>Reservation of Rights</b></font>
+
+        <font size="4" face="times new roman">
+
+            <p>Businessbucks’s Privacy Policy does not apply to other advertisers or websites. Thus, we <br>
+                are advising
+                you
+                to consult the respective Privacy Policies of these third-party ad servers<br> for more detailed
+                information. It may include their practices and instructions about how<br> to opt-out of certain
+                options.
+
+                You can choose to disable cookies through your individual <br>browser options. To know more detailed
+                information about cookie management with <br>specific web browsers, it can be found at the browsers’
+                respective websites.</p>
+        </font>
+
+        <font size="5" face="arial"><b>Removal of Links from Our Website</b></font>
+        <font size="4" face="times new roman">
+            <p>Under the CCPA, among other rights, California consumers have the right to:<br><br>
+                <iframe width="330" height="300" align="right" loading="eager" style="border:2px solid black;"
+                    src="https://sales.flickstree.com/partners/sales/ftplayer?id=3d35e1aa6427af1&pid=&nobuy=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+            <ul>
+
+                <li>Request that a business that collects a consumer’s personal data disclose the <br>categories and
+                    specific
+                    pieces of personal data that a business has collected about <br> consumers.</li><br>
+
+                <li>Request that a business delete any personal data about the consumer that a <br>
+
+                    business has
+                    collected.</li><br>
+
+                <li>Request that a business that sells a consumer’s personal data, not sell the <br>consumer’s personal
+                    data.</li><br>
+
+                <li> If you make a request, we have one month to respond to you. If you would like to <br>exercise any
+                    of these<br>
+                    rights, please contact us.</li>
+                </p>
+            </ul>
+        </font>
+        <font size="5" face="arial"><b>Disclaimer</b></font>
+        <font size="4" face="times new roman">
+            <p>We would like to make sure you are fully aware of all of your data protection rights. <br>Every user is
+                entitled to the following:<br>
+
+                <iframe width="330" height="300" align="right" loading="eager" style="border:2px solid black;"
+                    src="https://sales.flickstree.com/partners/sales/ftplayer?id=9d62306303e81e8&pid=&nobuy=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            <ul>
+
+                <li><b>The right to access – </b>You have the right to request copies of your personal data.<br> We may
+                    charge you a
+                    small fee for this service.</li><br>
+
+
+                <li><b>The right to rectification – </b>You have the right to request that we correct any
+                    <br>information you believe
+                    is inaccurate. You also have the right to request that we <br>complete the information you believe
+                    is
+                    incomplete.
+                </li><br>
+
+                <li><b>The right to erasure – </b>You have the right to request that we erase your <br>personal data,
+                    under certain
+                    conditions.</li><br>
+
+                <li><b>The right to restrict processing – </b>You have the right to request that we <br>restrict the
+                    processing of your
+                    personal data, under certain conditions</li><br>
+
+                <li><b>The right to object to processing – </b>You have the right to object to our <br>processing of
+                    your personal
+                    data,under certain conditions.</li><br>
+
+                <li><b>The right to data portability – </b>You have the right to request that we transfer<br> the data
+                    that we have
+                    collected to another organization, or directly to you,<br> under certain conditions.</li><br>
+
+                <li>If you make a request, we have one month to respond to you. If you would like<br> to exercise any of
+                    rights, please contact us.</li><br></p>
+            </ul>
+        </font>
+    </div>
+</body>
+
+</html>
+<!--technology-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Technology - BLUE PINE</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        div {
+            height: 1575px;
+            width: 80%;
+            left: 130px;
+            border: 3px solid white;
+            position: relative;
+            background-color: white;
+            box-shadow: 10px 10px 5px grey;
+        }
+
+        h2,
+        img {
+            line-height: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body bgcolor="#C0C0C0">
+    <div>
+        <img src="logo.jpg" width="180" height="140" align="left"></img><br>
+        <font SIZE="10" face="ARIAL">
+            <h2 style="text-align:right;"><b>BLUE PINE</b></h2>
+        </font>
+        <table id="header" border="1" width="100%" cellpadding="0" cellspacing="0" bgcolor="black">
+            <tr>
+                <td>
+                    <table>
+                        <table border="1" width="100%" cellpadding="15" cellspacing="0" align="center">
+                            <tr align="center">
+                                <td>
+                                    <a href="internship.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>HOME</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Economy.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>ECONOMY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Finance.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>FINANCE</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Industry.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>INDUSTRY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Technology.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>TECHNOLOGY</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="Crypto.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>CRYPTO</b></font>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="More.html" target="blank">
+                                        <font face="arial" color="white" size="3"><b>MORE</b></font>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <font text-align="center" face="arial" size="6" hspace="15px">
+            <center><b>
+                    <marquee width="80%" scrollamount="7">Technology</marquee>
+                </b>
+        </font>
+        </center>
+        <hr width="100%" color="grey" size="2">
+        <img src="eco1.jpg" align="left" width="300" style="border:2px solid black;" height="280" hspace="15px"></img>
+        <iframe width="330" height="300" align="right"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=b6869e3cccfbbb5&pid=&nobuy=0&sub3=plusyouapp&sub4=&user_id=&session_id=&config=%7B%22overlay_primary_btn_text%22%3A%22Cashback%3A+1.4%25%22%7D"
+            style="border:2px solid black;" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <font size="5" align="center">
+            <p>Flashback – Joe Biden: ‘I Guarantee You We’re Going to End Fossil Fuels’
+        </font><br><br>
+        <font size="4" align="center"> Then-candidate Joe Biden said in 2019 that he would “end” the fossil fuel
+            industry in the United States. “I want you to look at my eyes. I guarantee you, I guarantee you we’re going
+            to Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum quos nostrum ducimus porro rem ad
+            possimus. Dolorem dolor vero obcaecati dolores id commodi minima? Veniam ut facilis provident a atque?</p>
+            <br>
+        </font>
+
+        <hr color="grey" width="100%" size="1">
+
+        <iframe width="330" height="300" align="right" style="border:2px solid black;"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=abc964a568f02e7&pid=&nobuy=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <img src="eco2.jpg" align="left" style="border:2px solid black;" width="300" height="280" hspace="15px"></img>
+        <font size="5" align="center">
+            <p>Pressure on For Russian Gas-Addict Germany as Kremlin Throttles Supply
+        </font><br><br>
+        <font size="4" align="center">Officials in Russian gas-addicted state Germany appear to be starting to sweat as
+            the Kremlin turns down its supply to the country over what it describes as technical issues. Russian state
+            gas provider Gazprom has Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident porro
+            explicabo, incidunt dignissimos exercitationem nihil beatae libero expedita amet dolorum fugit iusto, culpa
+            iure eius quia reiciendis itaque similique quaerat!
+        </font>
+        <hr color="grey" width="100%" size="1">
+        <iframe width="330" height="300" align="right" style="border:2px solid black;"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=1e782eb64f5b6e2&pid=&nobuy=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <img src="eco3.jpg" align="left" style="border:2px solid black;" width="300" height="285" hspace="15px"></img>
+        <font size="5" align="left">
+            <p>Cuban Dissidents Urge FCC to Review Sale of Anti-Communist Radio Stations to Soros-Backed Leftist</p>
+        </font>
+        <font size="4" align="center">The Assembly of the Cuban Resistance, a coalition of pro-democracy Cuban groups on
+            and off the island, sent a letter on Tuesday to the head of the Federal Communications Commission (FCC)
+            urging it to engage Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sit neque odit voluptatem
+            voluptatibus quod harum, magnam excepturi suscipit odio! Dolores excepturi eos sit pariatur quia qui
+            blanditiis eum sequi!</p>
+        </font>
+        <hr color="grey" width="100%" size="1">
+        <iframe width="330" height="300" align="right" style="border:2px solid black;"
+            src="https://sales.flickstree.com/partners/sales/ftplayer?id=121ac6bef4261fa&pid=&nobuy=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <img src="eco4.jpg" align="left" style="border:2px solid black;" width="300" height="280" hspace="15px"></img>
+        <font size="5" align="left">
+            <p>Global Food Crisis: Ukrainian Farmers Fearing ‘Hell’ Harvest Amid Invasion</p>
+        </font>
+        <font size="4" align="center">Ukrainian farmers are reportedly preparing for a “hell” harvest season, with
+            physical and financial dangers predicted to prevent them from reaping, transporting and selling their crops.
+            While food prices rise worldwide, reflecting growing shortages, farmers Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Repellendus et, eius fugit nostrum esse quisquam maxime sequi! Excepturi,
+            quam? Soluta rem, ullam aliquam adipisci omnis ad obcaecati laboriosam nobis cupiditate? </font><br>
+        <hr width="100%" size="3" color="grey">
+    </div>
+</body>
+
+</html>
+</div>
+</body>
+
+</html>
+<!--ty-->
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title>Thank You</title>
+
+    <style>
+        body {
+            background-color: whitesmoke;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="center">
+        THANK YOU !!<br><BR>
+        YOUR RESPONSE HAS BEEN RECEIVED, <BR><BR>
+        WILL REVERT BACK WITHIN A WEEK
+    </h1>
+    <center>
+        <a href="http://www.flickstree.com">
+            <input type="Submit" value="Home" />
+        </a>
+    </center>
+
+    </script>
+</body>
+
+</html>
+<!--contact-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            width: 100%;
+            background: GREY;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            width: 85%;
+            background: #fff;
+            border-radius: 6px;
+            padding: 20px 60px 30px 40px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .container .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .container .content .left-side {
+            width: 25%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15px;
+            position: relative;
+        }
+
+        .content .left-side::before {
+            content: '';
+            position: absolute;
+            height: 70%;
+            width: 2px;
+            right: -15px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #afafb6;
+        }
+
+        .content .left-side .details {
+            margin: 14px;
+            text-align: center;
+        }
+
+        .content .left-side .details i {
+            font-size: 30px;
+            color: #3e2093;
+            margin-bottom: 10px;
+        }
+
+        .content .left-side .details .topic {
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .content .left-side .details .text-one,
+        .content .left-side .details .text-two {
+            font-size: 14px;
+            color: #afafb6;
+        }
+
+        .container .content .right-side {
+            width: 75%;
+            margin-left: 75px;
+        }
+
+        .content .right-side .topic-text {
+            font-size: 23px;
+            font-weight: 600;
+            color: #3e2093;
+        }
+
+        .right-side .input-box {
+            height: 50px;
+            width: 100%;
+            margin: 12px 0;
+        }
+
+        .right-side .input-box input,
+        .right-side .input-box textarea {
+            height: 100%;
+            width: 100%;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            background: #F0F1F8;
+            border-radius: 6px;
+            padding: 0 15px;
+            resize: none;
+        }
+
+        .right-side .message-box {
+            min-height: 110px;
+        }
+
+        .right-side .input-box textarea {
+            padding-top: 6px;
+        }
+
+        .right-side .button {
+            display: inline-block;
+            margin-top: 12px;
+        }
+
+        .right-side .button input[type="button"] {
+            color: #fff;
+            font-size: 18px;
+            outline: none;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            background: #3e2093;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .button input[type="button"]:hover {
+            background: #5029bc;
+        }
+
+        @media (max-width: 950px) {
+            .container {
+                width: 90%;
+                padding: 30px 40px 40px 35px;
+            }
+
+            .container .content .right-side {
+                width: 75%;
+                margin-left: 55px;
+            }
+        }
+
+        @media (max-width: 820px) {
+            .container {
+                margin: 40px 0;
+                height: 100%;
+            }
+
+            .container .content {
+                flex-direction: column-reverse;
+            }
+
+            .container .content .left-side {
+                width: 100%;
+                flex-direction: row;
+                margin-top: 40px;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .container .content .left-side::before {
+                display: none;
+            }
+
+            .container .content .right-side {
+                width: 100%;
+                margin-left: 0;
+            }
+
+            h2,
+            img {
+                line-height: 0;
+            }
+
+            a {
+                text-decoration: none;
+            }
+        }
+    </style>
+</head>
+
+<script>
+    function validateform() {
+        var name = document.forms["myform"]["name"].value;
+        var mail = document.forms["myform"]["mail"].value;
+        var organization = document.forms["myform"]["organization"].value;
+        var mobile = document.forms["myform"]["mobile"].value;
+        var message = document.forms["myform"]["message"].value;
+
+        if (name == "" || name == null) {
+            alert("Name Field cannot be empty!!");
+            return false;
+        }
+        else if (mail == "" || mail == null) {
+            alert("Mail Field cannot be empty!!");
+            return false;
+        }
+        else if (organization == "" || organization == null) {
+            alert("Organization Field cannot be empty!!");
+            return false;
+        }
+        else if (mobile.length <= 0) {
+            alert("Enter Mobile Number!!")
+            return false;
+        }
+        else if (mobile.length != 10) {
+            alert("Entered Mobile Number should be 10 Digit Long!!");
+            return false;
+        }
+        else if (message == "" || message == null) {
+            alert("Please type your message!!");
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+</script>
+
+<body>
+
+    <div class="container">
+        <div class="content">
+            <div class="left-side">
+                <div class="address details">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="topic">Address</div>
+                    <div class="text-one">Surkhet, NP12</div>
+                    <div class="text-two">Birendranagar 06</div>
+                </div>
+                <div class="phone details">
+                    <i class="fas fa-phone-alt"></i>
+                    <div class="topic">Phone</div>
+                    <div class="text-one">+0098 9893 5647</div>
+                    <div class="text-two">+0096 3434 5678</div>
+                </div>
+                <div class="email details">
+                    <i class="fas fa-envelope"></i>
+                    <div class="topic">Email</div>
+                    <div class="text-one">services@gmail.com</div>
+                    <div class="text-two">info.services@gmail.com</div>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="topic-text">Send us a message</div>
+                <p>We Love questions and feedack - and we're always happy to help!<br>Here are some ways to Contact Us
+                </p>
+                <form name="myform" method="Post" onsubmit="return validateform()" action="TY.html">
+                    <div class="input-box">
+                        <input type="text" placeholder="Enter your name" id="name">
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Enter your email" id="mail">
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Enter Your organization" id="organization">
+                    </div>
+                    <div class="input-box">
+                        <input type="number" placeholder="Enter Your Mobile Number" id="mobile">
+                    </div>
+                    <div class="input-box message-box">
+                        <input type="text" placeholder="Enter Your Message" id="message"><br>
+                    </div>
+                    <div>
+                        <input
+                            style="background: #adbad8; color: black; border-style: outset; border-color: #0066A2; height: 30px; width: 80px; font: 15px arial,sans-serif; text-shadow: none;"
+                            type="Submit" value="Submit">
+                    </div>
+                </form>
+</body>
